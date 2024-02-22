@@ -1,0 +1,51 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+
+.welcome{
+    padding: 5%;
+}
+.welcome H1{
+    text-shadow: 1px  1px 2px rgb(154, 51, 214);
+    font-family: Roboto;
+}
+
+.apresentacao p{
+    font-family: Roboto;
+    text-align: left;
+    
+}
+
+.apresentacao img{
+    padding-right: 2%;
+}
+.apresentacao h1{
+    font-family: Roboto;
+    text-shadow: 1px  1px 2px rgb(154, 51, 214);
+    padding-bottom: 2%;
+}
+
+.cabecalho{
+    text-align: center;
+    background-color: rgb(22, 26, 26);
+    color: rgb(255, 255, 255);
+    align-items: flex-start;
+}
+
+.imagemProgramador img{
+    padding: 10%;
+    border-radius: 50%;
+    opacity: 80%;
+    -webkit-box-shadow: 14px 24px 44px 0px rgba(120,42,120,0.67);
+    -moz-box-shadow: 14px 24px 44px 0px rgba(120,42,120,0.67);
+    box-shadow: 14px 24px 44px 0px rgba(120,42,120,0.67);
+}
